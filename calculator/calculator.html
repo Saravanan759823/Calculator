@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator
+
+    </title>
+    <link rel="icon" href="download.png">
+    <link rel="stylesheet"  href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@600&family=Poppins:ital,wght@0,400;0,500;1,400&family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="Calculator">+5
+        <p >Calculator</p>
+
+        <label class="switch" >
+            <input type="checkbox" id="the">
+            <span class="slider round"></span>
+          </label>
+        
+       
+        <input type="text" id="display" value="0">
+       
+        <div class="button">
+    
+            <button id="clear" onclick="clearthenumber()">c</button>
+
+            <button id="delete" onclick="deletethe()">de</button>
+            <button id="point" onclick="number('.')">.</button>
+            <button id="divide" onclick="number('/')">/</button>
+            <button id="n7" onclick="number(7)">7</button>
+            <button id="n8" onclick="number(8)">8</button>
+            <button id="n9" onclick="number(9)">9</button>
+            <button id="mul" onclick="number('*')">X</button>
+            <button id="n4" onclick="number(4)">4</button>
+            <button id="n5" onclick="number(5)">5</button>
+            <button id="n6" onclick="number(6)">6</button>
+            <button id="sub" onclick="number('-')">-</button>
+            <button id="n1" onclick="number(1)">1</button>
+            <button id="n2" onclick="number(2)">2</button>
+            <button id="n3" onclick="number(3)">3</button>
+            <button id="add" onclick="number('+')">+</button>
+            <button id="n00" onclick="number('00')">00</button>
+            <button id="n0" onclick="number(0)">0</button>
+            <button id="answer" onclick="calculate()">=</button>
+        </div>
+    </div>
+</div>
+</body>
+<script src="java.js"></script>
+
+</html>
